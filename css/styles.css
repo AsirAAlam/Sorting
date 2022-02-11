@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  border: 1px solid black;
+  width: 1000px;
+  height: 500px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: rgb(75, 75, 75);
+  color: white;
+}
+
+#header__inputLength {
+  padding: 12px;
+  width: 50px;
+}
+
+#header__inputNumbers {
+  padding: 12px;
+  flex-grow: 1;
+}
+
+.header__generate {
+  padding: 12px;
+}
+
+.header__sort {
+  padding: 12px;
+}
