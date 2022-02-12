@@ -3,9 +3,10 @@
 }
 
 #app {
-  border: 1px solid black;
+  border: 3px solid black;
   width: 1000px;
   height: 500px;
+  padding: 2px;
   font-family: sans-serif;
   font-weight: bold;
   display: flex;
@@ -22,11 +23,15 @@
 #header__inputLength {
   padding: 12px;
   width: 50px;
+  color: white;
+  background: rgb(75, 75, 75);
 }
 
 #header__inputNumbers {
   padding: 12px;
   flex-grow: 1;
+  color: white;
+  background: rgb(75, 75, 75);
 }
 
 .header__generate {
