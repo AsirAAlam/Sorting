@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
 #app {
-  border: 5px solid black;
+  /* border: 5px solid black; */
   border-radius: 5px;
-  width: 1000px;
+  /* width: 1000px; */
   height: 500px;
   /* padding: 2px; */
   font-family: sans-serif;
@@ -27,7 +31,8 @@
   height: 10%;
 }
 
-.header button, input {
+.header button,
+input {
   height: 90%;
 }
 
@@ -46,7 +51,7 @@
 }
 
 .sortingBox {
-  background-color: aqua;
+  background-color: #99e2b4;
   height: 90%;
   width: 100%;
   position: absolute;
@@ -54,7 +59,12 @@
 }
 
 .bar {
-  border-left: 6px solid green;
+  border-left: 6px solid #036666;
   position: absolute;
   bottom: 0px;
+  transition: border-left 0.3s;
+}
+
+.bar:hover {
+  border-left: 6px solid #469d89;
 }

@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sorting</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body onload="load();">
-  
+  <h1>Sorter</h1>
+
   <div id="app">
     <div class="header">
-      <label for="header__inputLength">Length:</label><input value="30" id="header__inputLength" type="text">
-      <label for="header__inputNumbers">Numbers:</label><input id="header__inputNumbers" type="text">
-      <button type="button" class="header__generate">
+      <label for="header__inputLength">Length:</label>
+      <input value="30" id="header__inputLength" type="text" class="form-control">
+
+      <label for="header__inputNumbers">Numbers:</label>
+      <input id="header__inputNumbers" type="text" class="form-control">
+
+      <button type="button" class="header__generate btn btn-default">
         Random Sequence
       </button>
-      <button type="button" class="header__plot">
+      <button type="button" class="header__plot btn btn-default">
         Plot
       </button>
-      <button type="button" class="header__sort">
+      <button type="button" class="header__sort btn btn-default">
         Sort
       </button>
     </div>
@@ -30,4 +39,5 @@
 
   <script src="js/main.js"></script>
 </body>
+
 </html>
