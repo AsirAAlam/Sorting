@@ -7,12 +7,10 @@ h1 {
 }
 
 #app {
-  /* border: 5px solid black; */
+  border-style: solid;
+  border-color: black;
   border-radius: 5px;
-  /* width: 1000px; */
   height: 500px;
-  /* padding: 2px; */
-  font-family: sans-serif;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -27,7 +25,7 @@ h1 {
   color: white;
   padding: 0px 5px 0px 5px;
   border-color: black;
-  border-bottom: 3px solid black;
+  /* border-bottom: 3px solid black; */
   height: 10%;
 }
 
@@ -59,12 +57,8 @@ input {
 }
 
 .bar {
-  border-left: 6px solid #036666;
+  border-left-style: solid;
   position: absolute;
   bottom: 0px;
   transition: border-left 0.3s;
-}
-
-.bar:hover {
-  border-left: 6px solid #469d89;
 }
